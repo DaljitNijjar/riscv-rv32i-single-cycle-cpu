@@ -58,11 +58,13 @@ Unit-level **self-checking testbenches** are provided for verification.
 │ ├── core_pc.sv # Program counter & instruction fetch
 │ └── core.sv # Top-level core integration
 │
+|
 ├── sim/ # Simulation testbenches
 │ ├── alu_tb.sv
 │ ├── decoder_tb.sv
 │ └── regfile_tb.sv
 │
+|
 ├── README.md
 ├── LICENSE
 └── .gitignore
